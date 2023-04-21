@@ -1,0 +1,72 @@
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --logo-color: #000000;
+    --accent-color: #2196F3;
+    --background-color:#FFFFFF; 
+    --hero-background-color:#2F303A;
+  }
+   body{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+   }
+   a{text-decoration: none;}
+   ul{list-style: none;}
+   .logo{
+    color: var(--accent-color);
+   }
+  .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--accent-color);
+   }
+   .logo>span{
+    color: var(--logo-color);
+   }
+   .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02e;
+    color: var(--primary-text-color);
+   }
+   .nav-link{color: var(--primary-text-color);}
+   .contacts-link{
+    color: var(--secondary-text-color);
+    }
+    /* <Герой> */
+    .hero{
+      background-color: var(--hero-background-color);
+    }
+    h1{
+      
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+color: var(--background-color);
+background-color: var(--hero-background-color);
+}
+.hero-button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+letter-spacing: 0.06em;
+color: var(--background-color);
+background-color: var(--accent-color);}
+.nav-link:hover
+    .nav-link:focus
+    .contacts-link:hover,
+    .contacts-link:focus{
+    color: var(--accent-color);}
+
+
+
