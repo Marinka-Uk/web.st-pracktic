@@ -123,10 +123,20 @@ h1{
   color: var(--secondary-text-color);
 }
 
-address{
-  font-style: normal;
-}
 
-footer{
-  background-color: var(--hero-background);
+/* футер */
+.footer{ background-color: var(--hero-background);}
+.footer .logo>span{color: var(--background-color);}
+
+address{
+ font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: var(--background-color);
+}
+.footer.contacts-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.6);
 }
