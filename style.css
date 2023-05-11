@@ -6,6 +6,14 @@
   --background-color: #FFFFFF;
   --hero-background: #2F303A;
 }
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
 
 body{
   color: var(--primary-text-color);
@@ -139,4 +147,28 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: rgba(255, 255, 255, 0.6);
+}
+.section{
+  outline: solid 3px green;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  outline: solid 3px red;
+  width: 1200px;
+margin-left: 15px;
+margin-right: 15px;
+margin-left: auto;
+margin-right: auto;
+
 }
