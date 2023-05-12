@@ -114,6 +114,14 @@ h1{
   line-height: 42px;
   text-align: center;
 }
+/* Чим ми займаємось */
+.what-we-do{
+  display: flex;
+
+}
+.what-we-do img{
+  width: 270px;
+}
 
 .name{
   font-weight: 500;
@@ -149,8 +157,29 @@ line-height: 24px;
 color: rgba(255, 255, 255, 0.6);
 }
 .section{
-  outline: solid 3px green;
+  
 }
+.container header{ 
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+.container header nav{
+  display: flex;
+  
+
+}
+.header.nav{
+  display: flex;
+}
+.contacts-list{
+  display: flex;
+margin-left: auto;
+}
+.nav-list{
+  display: flex;
+  margin-left: 93px;}
+
 
 ul,
 p,
@@ -163,8 +192,11 @@ li{
   margin: 0;
 }
 
+
+
+
 .container{
-  outline: solid 3px red;
+  
   width: 1200px;
 margin-left: 15px;
 margin-right: 15px;
