@@ -165,13 +165,17 @@ justify-content: space-between;
 .what-we-do{
   display: flex;
   justify-content:space-between;
-
-
 }
 .img-what-we-do{
   width: 370px;
 }
 /* наша команда */
+.team-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .name{
   font-weight: 500;
   font-size: 16px;
@@ -261,7 +265,8 @@ margin-left: 15px;
 margin-right: 15px;
 margin-left: auto;
 margin-right: auto;
-
+flex-direction: row-reverse;
+justify-content: center;
 }
 .img{
   width: 270px; ;
@@ -269,4 +274,5 @@ margin-right: auto;
   margin-left: 15px;
   margin-right: 15px;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
