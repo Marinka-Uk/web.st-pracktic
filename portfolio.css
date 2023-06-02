@@ -1,81 +1,79 @@
 :root{
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;  
-    --logo-color: #000000;
-    --accent-color: #2196F3;
-    --background-color: #FFFFFF;
-    --hero-background: #2F303A;
-  }
-  html{
-    box-sizing: border-box;
-  }
-  body{
-    color: var(--primary-text-color);
-    background-color: var(--background-color);
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    initial-letter: 0,03em;
-  }
-  .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    
-    color: var(--accent-color);
-  }
-  .logo > span {
-    color: var(--logo-color);
-  }
-  .list{
-    display: flex;
-  }
-  .link{
-    padding: 12px;
-    
-  }
-  .buttons-list .list-item{
-    margin-left: 30px;
-    display: flex;
-            justify-content: center;
-            width: calc((100% - 10 * 8) / 5);
-  }
-  .button{
-    padding: 6px 25px;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;  
+  --logo-color: #000000;
+  --accent-color: #2196F3;
+  --background-color: #FFFFFF;
+  --hero-background: #2F303A;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  initial-letter: 0,03em;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+}
+.logo > span {
+  color: var(--logo-color);
+}
+.list{
+  display: flex;
+}
+.link{
+  padding: 12px;
+  
+}
+.buttons-list .list-item{
+  margin-left: 30px;
+  display: flex;
+          justify-content: center;
+          width: calc((100% - 10 * 8) / 5);
+}
+.button{
+  padding: 6px 25px;
 justify-content: space-between;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
-    background: #FFFFFF;
-    border-radius: 4px;
-  }
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
 .section{
-  padding-bottom: 94px;
-  padding-top: 94px;
+padding-bottom: 94px;
+padding-top: 94px;
 }
 .container {
-  /* outline: solid 3px red; */
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  margin: -8px;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+/* outline: solid 3px red; */
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+margin: -8px;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 }
 .container.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 color: var(--primary-text-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
+padding-top: 24px;
+padding-bottom: 25px;
 }
-
 .header nav {
   display: flex;
   justify-content: center;
@@ -93,10 +91,8 @@ border-radius: 4px;}
 .nav-list{
   display: flex;
   margin-left: 93px;
-  justify-content: center;
-
-}
-ul,
+  justify-content: center;}
+  ul,
 p,
 h1,
 h2,
@@ -123,34 +119,34 @@ h3{
   color: var(--background-color);
   }
   .footer.contacts-link{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.6);
-  }
-
-
-  .links-list{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-  }
-  .foto-items{
-    width: calc((100% - 6 * 15px) / 3);
-    margin: 15px;
-  }
-  button{
-    justify-content: center;
-    align-items: center;
-    color: #757575;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 10px 32px;
-
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 30px;
-      letter-spacing: 0.06em;
-      text-align: center;}
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    }
   
+  
+    .links-list{
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+    }
+    .foto-items{
+      width: calc((100% - 6 * 15px) / 3);
+      margin: 15px;
+    }
+    button{
+      justify-content: center;
+      align-items: center;
+      color: #757575;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      padding: 10px 32px;
+  
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        text-align: center;}
+    
