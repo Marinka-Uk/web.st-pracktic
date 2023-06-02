@@ -33,10 +33,12 @@ body{
   padding: 12px;
   
 }
-.buttons-list .list-item{
-  margin-left: 30px;
+ul{
   display: flex;
-          justify-content: center;
+  justify-content: center;
+}
+.buttons-list .list-item:not(:first-child){ 
+  margin-left: 30px;
           width: calc((100% - 10 * 8) / 5);
 }
 .button{
@@ -47,7 +49,7 @@ justify-content: space-between;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  background: #FFFFFF;
+  background-color: #F5F4FA;
   border-radius: 4px;
 }
 .section{
@@ -57,14 +59,6 @@ padding-top: 94px;
 .container {
 /* outline: solid 3px red; */
 display: flex;
-justify-content: center;
-flex-wrap: nowrap;
-margin: -8px;
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
 }
 .container.header {
 display: flex;
@@ -88,7 +82,7 @@ padding-bottom: 25px;
     box-shadow: 8px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.8), 0px 2px;
 border-radius: 4px;}
 
-.nav-list{
+/* .nav-list{
   display: flex;
   margin-left: 93px;
   justify-content: center;}
@@ -100,7 +94,7 @@ h3{
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 .link{
   display: flex;
   margin-left: 93px;
