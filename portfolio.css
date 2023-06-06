@@ -131,7 +131,7 @@ h3{
     margin: 15px;}
     
     button{
-      justify-content: center;
+      
       align-items: center;
       color: #757575;
       border: none;
@@ -144,4 +144,46 @@ h3{
         line-height: 30px;
         letter-spacing: 0.06em;
         text-align: center;}
-    
+    .foto-items{
+      box-sizing: border-box;
+      background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;  
+    }
+
+
+        .links-list{
+box-sizing: border-box;
+background: #FFFFFF;
+border: 0px solid #EEEEEE;
+        }
+        .project-title{
+          margin-left: 24px;
+          align-items: center;
+          font-family: 'Roboto';
+          padding-left: 9px;
+          padding-top: 6px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+        }
+        .spesialiasation{
+          margin-left: 34px;
+          font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+
+color: #757575;
+        }
+        .list-btn{
+
+        }
