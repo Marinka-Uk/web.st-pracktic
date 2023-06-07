@@ -85,7 +85,7 @@
   .hero{
   background-color: var(--hero-background);
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 165px;
   }
   
   .hero .container{
@@ -319,7 +319,24 @@ display: block;
 height: 120px;
 background-color: #F5F4FA;
 border-radius: 4px;
-background-image: ; background-repeat: no-repeat;
 background-position: center;
 margin-bottom: 30px;}
+
+.hero{
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url(./w.s.images/Img.jpg);
+  background-repeat: no-repeat;
+}
+.icon-arials.item::before
+{background-image:url(./w.s.images/1.png) ; background-repeat: no-repeat;}
+.icon-clock.item::before{
+  background-image:url(./w.s.images/2.png) ; background-repeat: no-repeat;
+}
+.icon-diagram.item::before{
+  background-image:url(./w.s.images/4.png) ; background-repeat: no-repeat;
+}
+.icon-astronaut.item::before{
+  background-image:url(./w.s.images/3.png) ; background-repeat: no-repeat;
+}
+
 
